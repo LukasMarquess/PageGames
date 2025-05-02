@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageGames</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Nome da Página</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="navbarNav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-pagina" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a página
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#novidade" class="nav-link">
+                            <i class="bi bi-collection me-1"></i>
+                            Novidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#destaque" class="nav-link">
+                            <i class="bi bi-controller me-1"></i>
+                            Em destaque
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contatos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-pagina">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval ="2000">
+                        <img src="./imagens/vanquish.jpeg" alt="Imagem de Vanquish" class="d-block w-100 img1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./imagens/dmc5.jpg" alt="Imagem de Devil May Cry 5" class="d-block w-100 img1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./imagens/bloodborne.jpg" alt="Imagem de Bloodborne" class="d-block w-100 img1">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <buttons type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></buttons>
+                    <buttons type="button" data-bs-target="#carousel" data-bs-slide-to="1"></buttons>
+                    <buttons type="button" data-bs-target="#carousel" data-bs-slide-to="2"></buttons>
+                </div>
+            </div>
+            <div class="pt-5 pb-5 justify-content-center" >
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-5">
+                            <img src="./imagens/edward.jpeg" alt="imagen de Edward Eric" class="img2 d-block w-100">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="text-center section-title">Sobre a <span class="text-red">página</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima distinctio, nobis dolores rerum, autem maiores incidunt ab natus aliquam rem dicta nisi necessitatibus architecto repellendus ad aperiam ipsam obcaecati.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aliquid rem ratione explicabo? Quaerat corporis perferendis, sint at ab dolor quos tempore excepturi accusantium saepe quae reprehenderit atque facere laborum.
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section id="novidade" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Novi<span class="text-red">daddes</span></h2>
+                </div>
+                <div class="row align-items-center mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/FFX.jpg" alt="Capa do jogo Final Fantasy X" class="d-block w-100 rounded img-novidades">
+                        <h3 class="text-center section-title mt-3 mb-3 text-red fs-4">Final Fantasy X</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, autem consequuntur labore illo alias ducimus voluptatum officia animi consequatur nostrum, amet eos nobis iste ipsam vitae dolorem! Ab, nihil ipsum?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/FFIX.avif" alt="Capa do jogo Final Fantasy IX" class="d-block w-100 rounded img-novidades">
+                        <h3 class="text-center section-title mt-3 mb-3 text-red fs-4">Final Fantasy IX</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, autem consequuntur labore illo alias ducimus voluptatum officia animi consequatur nostrum, amet eos nobis iste ipsam vitae dolorem! Ab, nihil ipsum?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/FFXIII.jpg" alt="Capa do jogo Final Fantasy XIII" class="d-block w-100 rounded img-novidades">
+                        <h3 class="text-center section-title mt-3 mb-3 text-red fs-4">Final Fantasy XIII</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, autem consequuntur labore illo alias ducimus voluptatum officia animi consequatur nostrum, amet eos nobis iste ipsam vitae dolorem! Ab, nihil ipsum?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destaque" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Em <span class="text-red">destaque</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-destaques">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nav-acao" class="nav-link fw-bold text-start text-red active">Ação/Aventura</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nav-terror" class="nav-link fw-bold text-start text-red">Terror</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nav-rpg" class="nav-link fw-bold text-start text-red">RPG</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#nav-sports" class="nav-link fw-bold text-start text-red">Esports</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="nav-acao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imagens/./dark3.png" alt="Capa Dark Souls 3" class="d-block w-100 rounded img-destaque">
+                                        <h5 class="text-red fw-bold mt-3">Dark Souls 3</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/sekiro.png" alt="Capa Sekiro" class="d-block w-100 rounded img-destaque">
+                                        <h5 class="text-red fw-bold mt-3">Sekiro Shadows die Twice</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/dark3.png" alt="Capa de Dark Souls 3" class="d-block w-100 rounded img-destaque">
+                                        <h5 class="text-red fw-bold mt-3">Dark Souls 3</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/sekiro.png" alt="Capa Sekiro" class="d-block w-100 rounded img-destaque">
+                                        <h5 class="text-red fw-bold mt-3">Sekiro Shadows die Twice</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/dark3.png" alt="Capa de Dark Souls 3" class="d-block w-100 rounded img-destaque">
+                                        <h5 class="text-red fw-bold mt-3">Dark Souls 3</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/sekiro.png" alt="Capa Sekiro" class="d-block w-100 rounded img-destaque">
+                                        <h5 class="text-red fw-bold mt-3">Sekiro Shadows die Twice</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="nav-terror">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imagens/sh2.jpg" alt="Capa de Silent Hill 2" class="d-block w-100 rounded img-terror">
+                                        <h5 class="text-red fw-bold mt-3">Silent Hill 2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/out.avif" alt="Capa de Outlast" class="d-block w-100 rounded img-terror">
+                                        <h5 class="text-red fw-bold mt-3">Outlast</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/sh2.jpg" alt="Capa de Silent Hill 2" class="d-block w-100 rounded img-terror">
+                                        <h5 class="text-red fw-bold mt-3">Silent Hill 2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/out.avif" alt="Capa de Outlast" class="d-block w-100 rounded img-terror">
+                                        <h5 class="text-red fw-bold mt-3">Outlast</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/sh2.jpg" alt="Capa de Silent Hill 2" class="d-block w-100 rounded img-terror">
+                                        <h5 class="text-red fw-bold mt-3">Silent Hill 2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="nav-rpg">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imagens/poe2.jpg" alt="Capa de Path of Exile 2" class="d-block w-100 rounded img-terror">
+                                        <h5 class="text-red fw-bold mt-3">Path of Exile 2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/diablo4.avif" alt="Capa de Diablo 4" class="d-block w-100 rounded img-terror">
+                                        <h5 class="text-red fw-bold mt-3">Diablo 4</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/poe2.jpg" alt="Capa de Path of Exile 2" class="d-block w-100 rounded img-terror">
+                                        <h5 class="text-red fw-bold mt-3">Path of Exile 2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/diablo4.avif" alt="Capa de Diablo 4" class="d-block w-100 rounded img-terror">
+                                        <h5 class="text-red fw-bold mt-3">Diablo 4</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="nav-sports">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./imagens/fc24.webp" alt="Capa de Fifa 24" class="d-block w-100 rounded img-terror">
+                                        <h5 class="text-red fw-bold mt-3">FC24</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./imagens/f124.avif" alt="Capa de Fórmula 1 24" class="d-block w-100 rounded img-terror">
+                                        <h5 class="text-red fw-bold mt-3">F124</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-start">Con<span class="text-red">tatos</span></h2>
+                </div>
+                <div class="row">
+                    <ul class="social-links">
+                        <li class="fs-1">
+                            <a href="">
+                                <i class="bi bi-telegram text-red"></i>
+                            </a>
+                        </li>
+                        <li class="fs-1">
+                            <a href="">
+                                <i class="bi bi-instagram text-red"></i>
+                            </a>
+                        </li>
+                        <li class="fs-1">
+                            <a href="">
+                                <i class="bi bi-whatsapp text-red"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="pt-2 pb-2">
+        <div class="container">
+            <div class="row">
+                <p class="m-0">2025 &copy; - Desenvolvido por Lucas Marques</p>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

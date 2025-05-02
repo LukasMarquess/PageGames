@@ -1,0 +1,80 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #c71818;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #ffffff;
+    color: #c71818;
+}
+
+.navbar-brand, #cabecalho .nav .nav-link, .navbar-brand:hover, .nav-destaques .nav-link.active:hover{
+    color: #ffffff;
+}
+
+.navbar-toggler{
+    background-color: #ffffff;
+}
+
+.img1{
+    height: 800px;
+}
+
+.img2{
+    height: 500px;
+}
+
+.section-title{
+    font-family: Pacifico, cursive;
+}
+
+.text-red{
+    color: #c71818;
+}
+
+.img-novidades{
+    height: 377px;
+}
+
+.nav-destaques .nav-link.active{
+    background-color: #c71818;
+    color: #ffffff;
+}
+
+.nav-destaques .nav-link:hover{
+    color: #c71818;
+}
+
+.img-terror{
+    height: 320px;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #c71818;
+    text-align: center;
+    justify-content: center;
+}
+
+footer p{
+    color: #ffffff;
+}
+
+@media (max-width: 767px){
+
+    .img1{
+        height: 400px;
+    }
+    
+}
